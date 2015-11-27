@@ -10,7 +10,7 @@ public class board extends JFrame{
 	JLabel label;
 	JTextField text1;
 	
-	void main_Board(){
+	void board(){
 		label  = new JLabel();
 		label.setSize(1000,1000);
 		btn1 =  new JButton();
@@ -18,4 +18,5 @@ public class board extends JFrame{
 		this.add(label);
 		this.setVisible(true);
 	}
+	
 }
